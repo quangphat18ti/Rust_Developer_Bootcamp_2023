@@ -1,3 +1,8 @@
 fn main() {
-    println!("Hello, Rust Bootcamp by VBI Academy!");
+    let a = 3;
+    let b = 2;
+    let c = &a;
+    let d = &b;
+
+    println!("c = d? {}", c == d);
 }
